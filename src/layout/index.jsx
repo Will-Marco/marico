@@ -1,3 +1,7 @@
 export default function Layout({ children }) {
-  return <div className="max-w-[1640px] m-auto mt-[46px]">{children}</div>;
+  return (
+    <div className="lg:max-w-[1200px] 2xl:max-w-[1640px] mx-[5%] xl:m-auto mt-[40px] xl:mt-[46px]">
+      {children}
+    </div>
+  );
 }
