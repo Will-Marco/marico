@@ -6,6 +6,7 @@ import Content from "./components/Content";
 import Homepage from "./components/Homepage";
 import Contacts from "./components/Contacts";
 import Experts from "./components/Experts";
+import Audience from "./components/Audience";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Homepage />
         <Contacts />
         <Experts />
+        <Audience />
       </Layout>
     </>
   );
