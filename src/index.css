@@ -18,3 +18,21 @@ html {
 .text-primary {
   color: #3D82F2;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: #666 #333;
+  scrollbar-width: thin;
+}

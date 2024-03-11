@@ -35,7 +35,8 @@ export default function Footer() {
           already started
         </p>
       </div>
-      <div className="w-full mt-32 mb-10 flex flex-col md:flex-row justify-between items-center">
+      <div className="w-full mt-10 mb-10 flex flex-col md:flex-row justify-between items-center">
+        <hr className="sm:w-2/3 w-full h-[2px] mb-4 md:hidden bg-gray-800 border-none" />
         <div>
           <img src={companyLogo} alt="Company-logo" className="w-[225px]" />
           <p className="sm:1/2 md:w-2/3 text-[20px] sm:text-[16px] md:text-[20px] lg:text-[27px] text-center text-secondary">
