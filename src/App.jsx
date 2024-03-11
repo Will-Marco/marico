@@ -4,6 +4,7 @@ import MainHeading from "./components/Main-heading";
 import Features from "./components/Features";
 import Content from "./components/Content";
 import Homepage from "./components/Homepage";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Features />
         <Content />
         <Homepage />
+        <Contacts />
       </Layout>
     </>
   );
