@@ -18,7 +18,7 @@ export default function Content() {
         text="View Avaliable Sources"
         className="my-8 xl:px-10 2xl:px-18 xl:py-4 text-[20px] sm:text-[12px] rounded-lg border border-gray-600 text-secondary"
       />
-      <div className="w-full h-[600px] flex flex-col xl:flex-row relative">
+      <div className="w-full xl:h-[600px] flex flex-col xl:flex-row relative">
         <div className="w-full h-full py-4 flex flex-col items-center xl:items-start justify-between">
           <p className="text-[20px] sm:text-[16px] md:text-[20px] lg:text-[30px]">
             Your Homepage
