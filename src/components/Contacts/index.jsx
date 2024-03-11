@@ -3,7 +3,7 @@ import Image from "../../assets/Image(1).png";
 
 export default function Contacts() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="mt-20 md:mt-36 2xl:mt-56 flex flex-col justify-center items-center">
       <span className="text-[25px] font-semibold text-primary uppercase">
         step 3
       </span>

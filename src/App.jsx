@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Content from "./components/Content";
 import Homepage from "./components/Homepage";
 import Contacts from "./components/Contacts";
+import Experts from "./components/Experts";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Content />
         <Homepage />
         <Contacts />
+        <Experts />
       </Layout>
     </>
   );
